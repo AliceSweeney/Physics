@@ -1,0 +1,49 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: LightSalmon;
+	font-size: 18px;
+}
+
+table, td, th {
+	border: 3px solid;
+}
+table {
+	border-collapse: collapse;
+	margin: 10px;
+}
+td, th {
+	padding: 5px;
+}
+th {
+	background-color: Khaki;
+}
+tr:nth-child(odd){background-color: Ivory;}
+
+#heading {
+	text-align: center;
+	padding: 20px;
+	border: 15px;
+	margin: 10px;
+	background-color: LightCyan;
+	border-style: ridge;
+	border-color: LightBlue;
+}
+.sections {
+	padding: 10px;
+	border: 5px;
+	margin: 25px;
+	background-color: LemonChiffon;
+	border-style: solid;
+	border-color: Bisque;
+}
+li.laws:hover {
+	background-color: Ivory;
+}
+
+.imageSource {
+	font-size: 10px;
+	color: Grey;
+}

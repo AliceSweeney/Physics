@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Physics: A Simple Introduction</title> <!--I picked this title because I wanted the key word or "physics" to be first, and I wanted it to convey that it was an easy explanation that doesn't go very in depth-->
+	<link rel="stylesheet" href="physicsStyle.css">
+</head>
+<body>
 
+	<h1 id="heading">Physics</h1>
+	<div class="sections">
+		<div class="text">
+			<h2>The Beginning</h2>
+			<p>Physics first appeared when an apple completely randomly decided to fall on this one guy's head.</p>
+			<p>That guy was Sir Isaac Newton, and he decided that it was weird that things fell down. He thought it was so strange that he gave the mysterious force a name. Gravity.</p>
+			</div>
+		<div class="image">
+			<img src="NewtonApple.jpg" alt="Newton getting hit on the head by an apple"> <!--I chose a jpg image because even though I thought a vector clipart would be available, there were none that had what I wanted. jpg was the next best option.-->
+			<p class="imageSource">Image Source: https://media.istockphoto.com/id/536832583/vector/isaac-newton.jpg?s=612x612&w=0&k=20&c=-MZh4DoMp6FxqrbL0qFz5v5yWcr2Chrebn4Xe8JcJRc=</p>
+		</div>
+	</div>
+	<div class="sections">
+		<div class="text">
+			<h2>Forces</h2>
+			<table>
+			  <tr> <!--top row of table-->
+				<th>Force</th>
+				<th>Description</th>
+			  </tr>
+			  <tr> <!--second row of table-->
+				<td>Gravity</td>
+				<td>An attractive force between any two objects. Most people assume only very large objects exert gravity, but small objects exert some as well</td>
+			  </tr>
+			  <tr> <!--third row of table-->
+				<td>Friction</td>
+				<td>A force that opposes movement. Friction is pretty annoying because it makes perpetual motion impossible, for now, but it also makes existing possible. If there was no friction, walking would just make you fall on your face.</td>
+			  </tr>
+			  <tr> <!--fourth row of table-->
+				<td>Normal Force</td>
+				<td>The force that goes perpendicular to a surface. It keeps your coffee cup from smashing through the table, and everything on the surface of Earth from accelerating toward the fiery center of the planet.</td>
+			  </tr>
+			  <tr> <!--fifth row of table-->
+				<td>Applied Force</td>
+				<td>Applied force is the force that happens when a cat pushes a glass off the table. the cat had to apply a force to the glass in order to move it off the table</td>
+			  </tr>
+			  <tr> <!--sixth row of table-->
+				<td>Tension</td>
+				<td>Tension is the force applied by a rope or something similar to one. It can only pull, not push.</td>
+			  </tr>
+			 </table>
+		</div>
+		 <div class="image">
+			<img src="FreeBodyDiagram.jpg" alt="a block with arrows representing normal force, gravity, applied force, and friction">
+			<p class="imageSource">Image Source: https://math.etsu.edu/multicalc/prealpha/Chap1/Chap1-1/Example8FreeBody.jpg</p>
+			<p>A free body diagram like the one seen above is an incredibly helpful way to visualize how forces act on an object</p>
+		 </div>
+	</div>
+	<div class="sections">
+		<h2>Newton's Laws</h2>
+		<ol>
+			<li class="laws">An object at rest will stay at rest and an object in motion will stay in motion moving in a straight line with constant velocity unless acted upon by an external force.</li>
+			<li class="laws">Force equals mass multiplied by acceleration.</li>
+			<li class="laws">Every action has an equal and opposite reaction.</li>
+		</ol>
+	</div>
+	<div class="sections">
+		<h2>Important Equations for Beginners</h2>
+		<table>
+			<tr>
+				<th>Equation</th>
+				<th>Variables</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>v=v<sub>0</sub>+at</td>
+				<td>v="velocity" v<sub>0</sub>="initial velocity" a="acceleration" t="time"</td>
+				<td>One of three kinematics equations that can be used to find velocity, initial velocity, acceleration, or time given that you have the other three.</td>
+			</tr>
+			<tr>
+				<td>x=x<sub>0</sub>+v<sub>0</sub>t+1/2at<sup>2</sup></td>
+				<td>x="position" x<sub>0</sub>="initial position" t="time" a="acceleration"</td>
+				<td>This is also one of the three kinematics equations. It is used differently than the first one because it does not include any type of velocity, but it does require the initial and/or final positions.</td>
+			</tr>
+			<tr>
+				<td>v<sup>2</sup>=v<sub>0</sub><sup>2</sup>+2a(x-x<sub>0</sub>)</td>
+				<td>v="velocity" v<sub>0</sub>="initial velocity" a="acceleration" x="position" x<sub>0</sub>="initial position"</td>
+				<td>The final kinematics equation. This one is the only one that does not require time, so it is most useful when that is not a variable you are given.</td>
+			</tr>
+			<tr>
+				<td>F<sub>g</sub>=mg</td>
+				<td>F<sub>g</sub>="force of gravity" m="mass" g="acceleration due to gravity on Earth (9.8 m/s<sup>2</sup>)"</td>
+				<td>A helpful equation when making free body diagrams to measure forces on an object. Every object on Earth feels this force.</td>
+			</tr>
+			<tr>
+				<td>F<sub>f</sub>=&mu;N</td>
+				<td>F<sub>f</sub>="force of friction" &mu;="coefficient of friction" N="normal force"</td>
+				<td>The equation that tells you how much friction there is on an object in motion. It is easy to remember because it's "FuN"!</td>
+			</tr>
+			<tr>
+				<td>K=1/2mv<sup>2</sup></td>
+				<td>K="kinetic energy" m="mass" v="velocity"</td>
+				<td>The equation to find the kinetic or moving energy of an object.</td>
+			</tr>
+			<tr>
+				<td>U=mgh</td>
+				<td>U="potential energy" m="mass" g="acceleration due to gravity on Earth (9.8 m/s<sup>2</sup>)" h="height"</td>
+				<td>The equation to find the potential energy of an object. Energy cannot be created or destroyed, only transfered. This equation and the one for kinetic energy often go together.</td>
+			</tr>
+		</table>
+		
+	</div>
+</body>
+</html>
